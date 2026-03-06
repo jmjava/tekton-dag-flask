@@ -1,5 +1,8 @@
 from flask import Flask
+import baggage
+
 app = Flask(__name__)
+baggage.init_app(app)
 
 @app.route("/")
 def hello():

@@ -1,0 +1,3 @@
+-r requirements.txt
+tekton-dag-baggage @ file:///home/ubuntu/github/jmjava/tekton-dag/libs/baggage-python
+pytest>=7.0
